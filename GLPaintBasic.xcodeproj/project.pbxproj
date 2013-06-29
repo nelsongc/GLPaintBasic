@@ -18,6 +18,17 @@
 		520FA288177E937C00B0AFB8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FA287177E937C00B0AFB8 /* Default-568h@2x.png */; };
 		520FA28B177E937C00B0AFB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520FA28A177E937C00B0AFB8 /* ViewController.m */; };
 		520FA28E177E937C00B0AFB8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520FA28C177E937C00B0AFB8 /* ViewController.xib */; };
+		520FA295177E938500B0AFB8 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520FA294177E938500B0AFB8 /* OpenGLES.framework */; };
+		520FA297177E938900B0AFB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520FA296177E938900B0AFB8 /* QuartzCore.framework */; };
+		520FA29F177E93E500B0AFB8 /* Eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FA298177E93E500B0AFB8 /* Eraser.png */; };
+		520FA2A0177E93E500B0AFB8 /* carbon1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 520FA299177E93E500B0AFB8 /* carbon1.jpg */; };
+		520FA2A1177E93E500B0AFB8 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FA29A177E93E500B0AFB8 /* Blue.png */; };
+		520FA2A2177E93E500B0AFB8 /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FA29B177E93E500B0AFB8 /* Green.png */; };
+		520FA2A3177E93E500B0AFB8 /* Purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FA29C177E93E500B0AFB8 /* Purple.png */; };
+		520FA2A4177E93E500B0AFB8 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FA29D177E93E500B0AFB8 /* Red.png */; };
+		520FA2A5177E93E500B0AFB8 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FA29E177E93E500B0AFB8 /* Yellow.png */; };
+		520FA2AA177E93EC00B0AFB8 /* PaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 520FA2A8177E93EC00B0AFB8 /* PaintingView.m */; };
+		520FA2AB177E93EC00B0AFB8 /* Particle.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FA2A9177E93EC00B0AFB8 /* Particle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +48,18 @@
 		520FA289177E937C00B0AFB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		520FA28A177E937C00B0AFB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		520FA28D177E937C00B0AFB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		520FA294177E938500B0AFB8 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		520FA296177E938900B0AFB8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		520FA298177E93E500B0AFB8 /* Eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eraser.png; sourceTree = "<group>"; };
+		520FA299177E93E500B0AFB8 /* carbon1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carbon1.jpg; sourceTree = "<group>"; };
+		520FA29A177E93E500B0AFB8 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		520FA29B177E93E500B0AFB8 /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green.png; sourceTree = "<group>"; };
+		520FA29C177E93E500B0AFB8 /* Purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Purple.png; sourceTree = "<group>"; };
+		520FA29D177E93E500B0AFB8 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		520FA29E177E93E500B0AFB8 /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
+		520FA2A7177E93EC00B0AFB8 /* PaintingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintingView.h; sourceTree = "<group>"; };
+		520FA2A8177E93EC00B0AFB8 /* PaintingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintingView.m; sourceTree = "<group>"; };
+		520FA2A9177E93EC00B0AFB8 /* Particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520FA297177E938900B0AFB8 /* QuartzCore.framework in Frameworks */,
+				520FA295177E938500B0AFB8 /* OpenGLES.framework in Frameworks */,
 				520FA272177E937C00B0AFB8 /* UIKit.framework in Frameworks */,
 				520FA274177E937C00B0AFB8 /* Foundation.framework in Frameworks */,
 				520FA276177E937C00B0AFB8 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +98,8 @@
 		520FA270177E937C00B0AFB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				520FA296177E938900B0AFB8 /* QuartzCore.framework */,
+				520FA294177E938500B0AFB8 /* OpenGLES.framework */,
 				520FA271177E937C00B0AFB8 /* UIKit.framework */,
 				520FA273177E937C00B0AFB8 /* Foundation.framework */,
 				520FA275177E937C00B0AFB8 /* CoreGraphics.framework */,
@@ -83,6 +110,7 @@
 		520FA277177E937C00B0AFB8 /* GLPaintBasic */ = {
 			isa = PBXGroup;
 			children = (
+				520FA2A6177E93EC00B0AFB8 /* GLPaint */,
 				520FA280177E937C00B0AFB8 /* AppDelegate.h */,
 				520FA281177E937C00B0AFB8 /* AppDelegate.m */,
 				520FA289177E937C00B0AFB8 /* ViewController.h */,
@@ -96,6 +124,13 @@
 		520FA278177E937C00B0AFB8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				520FA298177E93E500B0AFB8 /* Eraser.png */,
+				520FA299177E93E500B0AFB8 /* carbon1.jpg */,
+				520FA29A177E93E500B0AFB8 /* Blue.png */,
+				520FA29B177E93E500B0AFB8 /* Green.png */,
+				520FA29C177E93E500B0AFB8 /* Purple.png */,
+				520FA29D177E93E500B0AFB8 /* Red.png */,
+				520FA29E177E93E500B0AFB8 /* Yellow.png */,
 				520FA279177E937C00B0AFB8 /* GLPaintBasic-Info.plist */,
 				520FA27A177E937C00B0AFB8 /* InfoPlist.strings */,
 				520FA27D177E937C00B0AFB8 /* main.m */,
@@ -105,6 +140,16 @@
 				520FA287177E937C00B0AFB8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		520FA2A6177E93EC00B0AFB8 /* GLPaint */ = {
+			isa = PBXGroup;
+			children = (
+				520FA2A7177E93EC00B0AFB8 /* PaintingView.h */,
+				520FA2A8177E93EC00B0AFB8 /* PaintingView.m */,
+				520FA2A9177E93EC00B0AFB8 /* Particle.png */,
+			);
+			path = GLPaint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +208,14 @@
 				520FA286177E937C00B0AFB8 /* Default@2x.png in Resources */,
 				520FA288177E937C00B0AFB8 /* Default-568h@2x.png in Resources */,
 				520FA28E177E937C00B0AFB8 /* ViewController.xib in Resources */,
+				520FA29F177E93E500B0AFB8 /* Eraser.png in Resources */,
+				520FA2A0177E93E500B0AFB8 /* carbon1.jpg in Resources */,
+				520FA2A1177E93E500B0AFB8 /* Blue.png in Resources */,
+				520FA2A2177E93E500B0AFB8 /* Green.png in Resources */,
+				520FA2A3177E93E500B0AFB8 /* Purple.png in Resources */,
+				520FA2A4177E93E500B0AFB8 /* Red.png in Resources */,
+				520FA2A5177E93E500B0AFB8 /* Yellow.png in Resources */,
+				520FA2AB177E93EC00B0AFB8 /* Particle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +229,7 @@
 				520FA27E177E937C00B0AFB8 /* main.m in Sources */,
 				520FA282177E937C00B0AFB8 /* AppDelegate.m in Sources */,
 				520FA28B177E937C00B0AFB8 /* ViewController.m in Sources */,
+				520FA2AA177E93EC00B0AFB8 /* PaintingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
